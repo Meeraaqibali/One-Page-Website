@@ -18,6 +18,7 @@ function Header() {
           <a href="#" className="cv-btn2" id='btn'>Download App</a>
         </div>
       </div>
+      <div className="arrow"></div>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Features from "./components/Features";
+import Services from "./components/Services";
 import "./index"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <p>Here are some features of the Software</p>
      </div>
      <Features/>
+     <Services/>
     </div>
   );
 }
