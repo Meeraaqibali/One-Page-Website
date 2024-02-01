@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Features from "./components/Features";
 import Services from "./components/Services";
+import Subscribe from "./components/Subscribe";
 import "./index"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      </div>
      <Features/>
      <Services/>
+     <Subscribe/>
     </div>
   );
 }

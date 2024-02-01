@@ -7,7 +7,7 @@ function MyNavbar() {
   return (
     <div>
       <nav>
-        <Link to='main' className='logo'>
+        <Link to='main' className='logo'smooth={true} duration={2000}>
           <img src={logo} alt='logo'/>
         </Link>
         <input className='menu-btn' type='checkbox' id='menu-btn' />
@@ -16,16 +16,19 @@ function MyNavbar() {
         </label>
         <ul className="menu">
           <li>
-            <Link to='main' className='active'>Home</Link>
+            <Link to='main' smooth={true} duration={1000}>Home</Link>
           </li>
           <li>
-            <Link to='features' >Features</Link>
+            <Link to='features'smooth={true} duration={1000} >Features</Link>
           </li>
           <li>
-            <Link to='services' >Services</Link>
+            <Link to='services' smooth={true} duration={1000}>Services</Link>
           </li>
           <li>
-            <Link to='subscribe'>Subscribe</Link>
+            <Link to='subscribe'smooth={true} duration={1000}>Subscribe</Link>
+          </li>
+          <li>
+            <Link to="#">Contact</Link>
           </li>
         </ul>
             <Link to='#' className="hey">To APP</Link>
