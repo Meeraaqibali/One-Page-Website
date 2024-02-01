@@ -9,7 +9,7 @@ function Header() {
     <div id='main' >
       <MyNavbar/>
       <div className="name">
-        <h1>It's a <span>ReactJS</span>Website</h1>
+        <h1>It's a <span> ReactJS </span> Website</h1>
         <p className='details'>Most Calendars are designed for teams.This is designed for freelancers
           who want a simple way to plan their schools
         </p>
